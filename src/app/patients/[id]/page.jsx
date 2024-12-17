@@ -14,7 +14,7 @@ export default function Patient () {
   const [showModal, setShowModal] = useState(false)
 
   // TODO: cambiar url después del deploy!
-  const currentURL = `https://empren.dev${pathname}`
+  const currentURL = `https://donar-three.vercel.app${pathname}`
 
   const handleShareOnWhatsApp = () => {
     const whatsappURL = `https://wa.me/?text=${encodeURIComponent(currentURL)}`
