@@ -23,7 +23,7 @@ export default function Patients () {
         <h2 className='text-slate-500 lg:mr-32 text-justify text-sm lg:text-base'>A continuación, encontrarás una lista de personas que necesitan donantes de sangre. Haz clic en el botón "+ info" para acceder a todos los detalles necesarios y conocer los datos para acudir al centro de donación correspondiente, en caso de que decidas registrarte como su donante.
         </h2>
       </div>
-      <ul className='divide-y divide-pink-400 w-full lg:w-3/4 lg:ml-24 mb-32'>
+      <ul className='divide-y divide-pink-400 w-[320px] lg:w-3/4 ml-4 lg:ml-24 mb-32'>
         {patients?.map((patient) => (
           <li key={patient._id} className='flex justify-between gap-4 lg:gap-6 py-5 lg:p-6 hover:bg-slate-100 hover:rounded-lg w-full'>
             <div className='flex w-fit gap-4'>
