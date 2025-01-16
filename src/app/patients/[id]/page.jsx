@@ -13,7 +13,6 @@ export default function Patient () {
   const { data, isLoading } = useFetch(`patients/${id}`)
   const [showModal, setShowModal] = useState(false)
 
-  // TODO: cambiar url después del deploy!
   const currentURL = `https://donar-three.vercel.app${pathname}`
 
   const handleShareOnWhatsApp = () => {
